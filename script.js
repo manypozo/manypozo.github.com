@@ -159,11 +159,12 @@ function renderExperience() {
     experienceTimeline.innerHTML = resumeData.experience.map(exp => `
         <div class="timeline-item">
             <div class="meta">
-                <div class="job-title">${exp.title}</div>
-                <div class="time">${exp.period}</div>
-                <div class="company">
-                    <a href="${exp.companyUrl}" target="_blank" rel="noopener">${exp.company}</a>
+                <div class="company-title">
+                    <a href="${exp.companyUrl}" target="_blank" rel="noopener" class="company-link">${exp.company}</a>
+                    <span class="title-separator"> - </span>
+                    <span class="job-title">${exp.title}</span>
                 </div>
+                <div class="time">${exp.period}</div>
             </div>
             <div class="details">
                 ${exp.description.map(desc => `<p>${desc}</p>`).join('')}
@@ -187,6 +188,11 @@ function renderEducation() {
                     <a href="${edu.institutionUrl}" target="_blank" rel="noopener">${edu.institution}</a>
                 </div>
             </div>
+            ${edu.description ? `
+                <div class="details">
+                    ${edu.description.map(desc => `<p>${desc}</p>`).join('')}
+                </div>
+            ` : ''}
         </div>
     `).join('');
 }
@@ -228,14 +234,73 @@ function renderSkills() {
     if (!skillsGrid || !resumeData.skills) return;
     
     console.log('Rendering skills...');
-    skillsGrid.innerHTML = resumeData.skills.map(skill => `
-        <div class="skill-item">
-            <h3 class="skill-name">${skill.name}</h3>
-            <div class="skill-bar">
-                <div class="skill-level" style="--skill-level: ${skill.level}; width: ${skill.level}"></div>
+    
+    // Group skills by category
+    const groupedSkills = groupSkillsByCategory(resumeData.skills);
+    
+    // Change grid class to grouped layout
+    skillsGrid.className = 'skills-grouped';
+    
+    skillsGrid.innerHTML = Object.entries(groupedSkills).map(([groupName, skills]) => `
+        <div class="skill-group">
+            <h3 class="skill-group-title">
+                <span class="icon" aria-hidden="true">${getSkillGroupIcon(groupName)}</span>
+                ${groupName}
+            </h3>
+            <div class="skill-group-items">
+                ${skills.map(skill => `
+                    <div class="skill-item">
+                        <h4 class="skill-name">${skill.name}</h4>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="--skill-level: ${skill.level}; width: ${skill.level}"></div>
+                        </div>
+                    </div>
+                `).join('')}
             </div>
         </div>
     `).join('');
+    
+    // Initialize Lucide icons after rendering
+    if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+    }
+}
+
+// Group skills by category
+function groupSkillsByCategory(skills) {
+    const grouped = {};
+    
+    skills.forEach(skill => {
+        const group = skill.group || 'Other';
+        if (!grouped[group]) {
+            grouped[group] = [];
+        }
+        grouped[group].push(skill);
+    });
+    
+    // Sort groups by number of skills (descending) and then alphabetically
+    const sortedGroups = Object.entries(grouped).sort((a, b) => {
+        if (b[1].length !== a[1].length) {
+            return b[1].length - a[1].length;
+        }
+        return a[0].localeCompare(b[0]);
+    });
+    
+    return Object.fromEntries(sortedGroups);
+}
+
+// Get icon for skill groups
+function getSkillGroupIcon(groupName) {
+    const groupIcons = {
+        'Programming': '<i data-lucide="code"></i>',
+        'Operations': '<i data-lucide="settings"></i>',
+        'Cloud': '<i data-lucide="cloud"></i>',
+        'NoSQL': '<i data-lucide="database"></i>',
+        'Real-time': '<i data-lucide="zap"></i>',
+        'Data Lakehouse': '<i data-lucide="layers"></i>',
+        'Other': '<i data-lucide="star"></i>'
+    };
+    return groupIcons[groupName] || '<i data-lucide="star"></i>';
 }
 
 // Get icon for contact items

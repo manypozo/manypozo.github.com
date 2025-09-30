@@ -1,8 +1,7 @@
 {
   "personal": {
     "name": "Manuel Pozo",
-    "title": "DataOps Engineer",
-    "email": "many.pozo@outlook.com",
+    "title": "Data Engineer",    
     "profileImage": "assets/images/many.jpg",
     "summary": [
       "🔍 Full-Stack Data Specialist with a Ph.D. in Recommender Systems.",
@@ -13,13 +12,6 @@
     ]
   },
   "contact": [
-    {
-      "type": "email",
-      "icon": "mail",
-      "label": "Email",
-      "value": "many.pozo@outlook.com",
-      "url": "mailto:many.pozo@outlook.com"
-    },
     {
       "type": "linkedin",
       "icon": "linkedin",
@@ -33,20 +25,6 @@
       "label": "GitHub",
       "value": "manypozo",
       "url": "https://github.com/manypozo"
-    },
-    {
-      "type": "twitter",
-      "icon": "twitter",
-      "label": "Twitter",
-      "value": "@manypozo",
-      "url": "https://twitter.com/manypozo"
-    },
-    {
-      "type": "instagram",
-      "icon": "instagram",
-      "label": "Instagram",
-      "value": "manypozo",
-      "url": "https://instagram.com/manypozo"
     }
   ],
   "languages": [
@@ -76,7 +54,7 @@
   ],
   "experience": [
     {
-      "title": "Principal Data",
+      "title": "Principal Data Engineer",
       "company": "Everyday",
       "companyUrl": "",
       "period": "11/2025 - Today",
@@ -165,29 +143,6 @@
         "Technologies: ELK, Kafka, Hadoop HDFS, Apache Spark, Cassandra, Couchbase, Docker, Kubernetes, Scala, Bash",
         "Programming: Scala, Python, SQL"
       ]
-    },
-    {
-      "title": "PhD Research & Development Internship",
-      "company": "University of Salford, Manchester",
-      "companyUrl": "https://www.salford.ac.uk/",
-      "period": "05/2015 - 08/2015",
-      "description": [
-        "Internship in Machine Learning focusing on a very particular issue called 'cold-start': situation in which new users (or items) are new in the system; therefore there is no information about them leading in a miss classification.",
-        "Active Learning has been proposed to face cold start by intelligently acquire the needed essential data from very first users.",
-        "Skills: Hadoop MapReduce, Java, Machine Learning"
-      ]
-    },
-    {
-      "title": "Ph.D Research & Development / Project Manager",
-      "company": "ISEP - Institut Supérieur d'Electronique de Paris",
-      "companyUrl": "https://www.isep.fr",
-      "period": "10/2013 - 09/2016",
-      "description": [
-        "Thesis oriented to industry: Thesis dubbed Towards Accurate and Scalable Recommender Systems",
-        "The enormous quantity of information in Webs may overwhelm users. Recommender Systems study the interest of users in order to pre-select information in which he/she might be more interested. My goal in this subject is to create a recommender system that relies on two concepts: generic implicit relations in data and distributed collaborative filtering techniques.",
-        "Skills: Hadoop MapReduce, Apache Mahout, Java, R-Cran, SQL, Bloom Filters, Weka, Protegee, Jena, SPARQL",
-        "Extra: Project Manager for final master projects focused on recommender systems"
-      ]
     }
   ],
   "education": [
@@ -195,19 +150,21 @@
       "degree": "Ph.D / Doctorate in Computer Science - Recommender Systems",
       "institution": "CNAM - Conservatoire National des Arts et Métiers",
       "institutionUrl": "http://www.cnam.fr",
-      "period": "2013 - 2016"
-    },
+      "period": "2013 - 2016",
+      "description": [
+        "Industry-oriented thesis: Towards Accurate and Scalable Recommender Systems.",
+        "Developed recommender systems using implicit data relations and distributed collaborative filtering.",
+        "Internship at University of Salford focused on Active Learning to address cold start in recommender systems.",
+        "Skills: Hadoop MapReduce, Apache Mahout, Java, R-Cran, SQL, Bloom Filters, Weka, Protegee, Jena, SPARQL",
+        "Extra: Project Manager for final master projects focused on recommender systems"
+      ]      
+    },   
     {
-      "degree": "Master in Network and Service Architect",
-      "institution": "ISEP - Institut supérieur d'Electronique de Paris",
-      "institutionUrl": "https://www.isep.fr",
-      "period": "2012 - 2013"
-    },
-    {
-      "degree": "Licentiature - Telecommunications Engineer",
+      "degree": "University Degree - Telecommunications Engineer",
       "institution": "US - University of Sevilla",
       "institutionUrl": "https://www.etsi.us.es",
-      "period": "2008 - 2013"
+      "period": "2008 - 2013",
+      "description": [      ]
     }
   ],
   "projects": [
@@ -277,99 +234,128 @@
   "skills": [
     {
       "name": "Snowflake",
-      "level": "80%"
+      "level": "80%",
+      "group": "Data Platform"
     },
     {
+      "name": "Redshift",
+      "level": "80%",
+      "group": "Data Platform"
+    }, 
+    {
+      "name": "Datadog",
+      "level": "80%",
+      "group": "Monitoring"
+    },       
+    {
+      "name": "Grafana & Prometheus",
+      "level": "80%",
+      "group": "Monitoring"
+    },            
+    {
       "name": "Docker",
-      "level": "80%"
+      "level": "80%",
+      "group": "Operations"
     },
     {
       "name": "Cassandra",
-      "level": "80%"
+      "level": "80%",
+      "group": "NoSQL"
     },
     {
       "name": "Elastic Logstash Kibana",
-      "level": "80%"
+      "level": "80%",
+      "group": "Monitoring"
     },
     {
       "name": "Kubernetes",
-      "level": "80%"
+      "level": "80%",
+      "group": "Operations"
     },
     {
       "name": "Scala",
-      "level": "70%"
+      "level": "70%",
+      "group": "Programming"
     },
     {
       "name": "LaTeX",
-      "level": "70%"
-    },
-    {
-      "name": "Hadoop HDFS",
-      "level": "70%"
+      "level": "70%",
+      "group": "Programming"
     },
     {
       "name": "SQL",
-      "level": "70%"
+      "level": "70%",
+      "group": "Programming"
     },
     {
       "name": "Apache Spark",
-      "level": "70%"
+      "level": "70%",
+      "group": "Programming"
     },
     {
       "name": "Akka Concurrent",
-      "level": "70%"
-    },
-    {
-      "name": "Confluent Kafka",
-      "level": "70%"
+      "level": "70%",
+      "group": "Programming"
     },
     {
       "name": "Java",
-      "level": "65%"
+      "level": "65%",
+      "group": "Programming"
     },
     {
       "name": "Couchbase",
-      "level": "60%"
+      "level": "60%",
+      "group": "NoSQL"
     },
     {
       "name": "C",
-      "level": "60%"
+      "level": "60%",
+      "group": "Programming"
     },
     {
       "name": "Python",
-      "level": "80%"
+      "level": "80%",
+      "group": "Programming"
     },
     {
       "name": "AWS - Amazon Web Services",
-      "level": "60%"
+      "level": "60%",
+      "group": "Cloud"
     },
     {
       "name": "SPARQL",
-      "level": "50%"
+      "level": "50%",
+      "group": "Programming"
     },
     {
       "name": "C-SPARQL",
-      "level": "50%"
+      "level": "50%",
+      "group": "Programming"
     },
     {
       "name": "Google Cloud",
-      "level": "50%"
+      "level": "50%",
+      "group": "Cloud"
     },
     {
       "name": "OWL-RDF",
-      "level": "50%"
+      "level": "50%",
+      "group": "Programming"
     },
     {
       "name": "Apache Kafka",
-      "level": "70%"
+      "level": "70%",
+      "group": "Data Platform"
     },
     {
       "name": "Apache Iceberg",
-      "level": "70%"
+      "level": "70%",
+      "group": "Data Platform"
     },
     {
       "name": "Microsoft Azure",
-      "level": "50%"
+      "level": "50%",
+      "group": "Cloud"
     }
   ]
 }
