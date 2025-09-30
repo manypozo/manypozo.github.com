@@ -1,0 +1,361 @@
+{
+  "personal": {
+    "name": "Manuel Pozo",
+    "title": "Data Engineer",    
+    "profileImage": "assets/images/many.jpg",
+    "summary": [
+      "🔍 Full-Stack Data Specialist with a Ph.D. in Recommender Systems.",
+      "🚀 Passionate about emerging tech in entertainment, health, sports, and blockchain.",
+      "🏆 Sports fan, photographer, chess player, and poetry lover.",
+      "🧠 Lifelong learner with international experience and cultural fluency.",
+      "📚 Hands-on and impact-driven, applying knowledge to real-world challenges."
+    ]
+  },
+  "contact": [
+    {
+      "type": "linkedin",
+      "icon": "linkedin",
+      "label": "LinkedIn",
+      "value": "mpozo",
+      "url": "https://linkedin.com/in/mpozo"
+    },
+    {
+      "type": "github",
+      "icon": "github",
+      "label": "GitHub",
+      "value": "manypozo",
+      "url": "https://github.com/manypozo"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Professional"
+    },
+    {
+      "name": "French",
+      "level": "Native"
+    },
+    {
+      "name": "Spanish",
+      "level": "Native"
+    },
+    {
+      "name": "Portuguese",
+      "level": "Intermediate"
+    }
+  ],
+  "interests": [
+    "Health & Wellness",
+    "Sports",
+    "Photography",
+    "Contemporary Poetry",
+    "Technology"
+  ],
+  "experience": [
+    {
+      "title": "Principal Data Engineer",
+      "company": "Everyday",
+      "companyUrl": "",
+      "period": "11/2025 - Today",
+      "description": [
+        ""
+      ]
+    },
+    {
+      "title": "Staff Data Engineer",
+      "company": "Sorare",
+      "companyUrl": "https://sorare.com/",
+      "period": "09/2022 - 11/2025 (3 years 2 months)",
+      "description": [
+        "Sorare is a sports fantasy card game using NFT technology, enabling players to own and compete with digital cards.",
+        "On the platform team, I designed and built data infrastructure for analytics and machine learning. I bridged engineering and analytics to design, develop, maintain, and support the data platform for business and product teams.",
+        "Key tasks included data ingestion, transformation, architecture, governance, documentation, observability, visualization, activation, and automation.",
+        "Focused on modeling, scalability, reliability, and efficiency.",
+        "Technologies: Airflow, DBT, Snowflake, AWS, Kubernetes, Datadog, Terraform, Gitlab, Terraform.",
+        "Programming: Proficient in Python, SQL, and Ruby."
+      ]
+    },
+    {
+      "title": "Lead Data Engineer / DataOps",
+      "company": "Voodoo",
+      "companyUrl": "https://voodoo.io/",
+      "period": "03/2019 - 09/2022 (~3 years 6 months)",
+      "description": [
+        "Voodoo is a global mobile gaming company leveraging large-scale data to drive decisions and improve processes.",
+        "I designed, developed, and maintained the data platform supporting analytics and machine learning teams.",
+        "Focused on large-scale data ingestion, transformation, architecture, and automation.",
+        "Technologies: Spark, Airflow, DBT, Hadoop, AWS (EMR, Redshift, Athena, Glue, ECS, Kinesis), Kubernetes, Prometheus, Grafana, ElasticSearch, Terraform, CloudFormation, Jenkins, CircleCI.",
+        "Programming: Scala, Python, NodeJS, SQL"
+      ]
+    },
+    {
+      "title": "Co-Founder & CTO",
+      "company": "Gravity Law",
+      "companyUrl": "https://www.gravitylaw.com/",
+      "period": "05/2018 - 05/2020 (~2 years)",
+      "description": [
+        "Create an intelligent and adaptative platform to support lawyers in their daily work.",
+        "Technologies: Python, AWS, Terraform, ReactJS",
+        "Programming: Python, SQL"
+      ]
+    },
+    {
+      "title": "Data Consultant (Xebia) - DataOps / Data Engineer",
+      "company": "Engie Digital - eCare Project",
+      "companyUrl": "https://www.ecare-engie.com/index",
+      "period": "10/2018 - 03/2019 (~6 months)",
+      "description": [
+        "eCare targets Smart Homes and collects energy consumption data from smart devices.",
+        "Using data, eCare helps Engie Business Units and final users to better understand and control energy consumption making it possible to reduce energy bills.",
+        "Technologies: AWS, Terraform, Docker, Python, GitHub, Jenkins",
+        "Programming: Python, SQL"
+      ]
+    },
+    {
+      "title": "Data Consultant (Xebia) - DataOps",
+      "company": "La Française de Jeux (FDJ)",
+      "companyUrl": "https://www.fdj.fr",
+      "period": "09/2018 - 10/2018 (~2 months)",
+      "description": [
+        "The goal is to build a datalake where data integration and transformation is easy and where Data Scientist can easily access data to create models.",
+        "Skills: SaltStack, OpenStack, Hortonworks, Kerberos, JupyterHub, Python"
+      ]
+    },
+    {
+      "title": "Data Consultant",
+      "company": "Xebia France",
+      "companyUrl": "https://xebia.fr/",
+      "period": "09/2018 - 03/2019 (~6 months)",
+      "description": [
+        "Xebia is a consulting firm specialized in IT which advocates for knowledge sharing and quality solutions.",
+        "My missions are data-centric but always using a 'dev-ops' approach."
+      ]
+    },
+    {
+      "title": "Data Engineer and Data Scientist",
+      "company": "Blackpills",
+      "companyUrl": "https://www.blackpills.com",
+      "period": "09/2016 - 08/2018",
+      "description": [
+        "Blackpills is a digital-media startup that produces original short-video content and streams them through their own services (mobile apps)",
+        "My role was to design, develop, maintain and support the data platform to support the business and the product team.",
+        "Technologies: ELK, Kafka, Hadoop HDFS, Apache Spark, Cassandra, Couchbase, Docker, Kubernetes, Scala, Bash",
+        "Programming: Scala, Python, SQL"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D / Doctorate in Computer Science - Recommender Systems",
+      "institution": "CNAM - Conservatoire National des Arts et Métiers",
+      "institutionUrl": "http://www.cnam.fr",
+      "period": "2013 - 2016",
+      "description": [
+        "Industry-oriented thesis: Towards Accurate and Scalable Recommender Systems.",
+        "Developed recommender systems using implicit data relations and distributed collaborative filtering.",
+        "Internship at University of Salford focused on Active Learning to address cold start in recommender systems.",
+        "Skills: Hadoop MapReduce, Apache Mahout, Java, R-Cran, SQL, Bloom Filters, Weka, Protegee, Jena, SPARQL",
+        "Extra: Project Manager for final master projects focused on recommender systems"
+      ]      
+    },   
+    {
+      "degree": "University Degree - Telecommunications Engineer",
+      "institution": "US - University of Sevilla",
+      "institutionUrl": "https://www.etsi.us.es",
+      "period": "2008 - 2013",
+      "description": [      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Briefeed",
+      "url": "https://www.briefeed.co",
+      "description": "The essential news reader app. Handy, minimal, fast: the sleekest way to read the news on the go, finding in one place all the updates you need."
+    },
+    {
+      "name": "Dendelion",
+      "url": "#",
+      "description": "Personal assistant for presents."
+    },
+    {
+      "name": "Smart Building - Fire Alarm Use Case",
+      "url": "https://www.linkedin.com/pulse/cisco-hackathon-smart-cities-spinalcom-fight-against-fire-manuel-pozo/",
+      "description": "Cisco Hackathon, Smart Cities and SpinalCom to fight against Fire Issues"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Exploiting Past Users' Interests and Predictions in an Active Learning Method for Dealing with Cold Start in Recommender Systems",
+      "authors": "M. Pozo, R. Chiky, F. Meziane and E. Métais",
+      "venue": "2018 MDPI Informatics"
+    },
+    {
+      "title": "Enhancing New User Cold-Start based on Decision Trees Active Learning by Using Past Warm-Users Predictions",
+      "authors": "M. Pozo, R. Chiky, F. Meziane and E. Métais",
+      "venue": "2017 ICCCI | Springer | Nicosia, Cyprus"
+    },
+    {
+      "title": "Enhanced User-User Collaborative Filtering Recommendation Algorithm using Amendments",
+      "authors": "W. Zhang, R. Chiky and M. Pozo",
+      "venue": "2017 EGC | RNTI Poster | Grenoble, France"
+    },
+    {
+      "title": "An Item/User Representation for Recommender Systems based on Bloom Filters",
+      "authors": "M. Pozo, R. Chiky, F. Meziane and E. Métais",
+      "venue": "2016 RCIS | IEEE | Grenoble, France"
+    },
+    {
+      "title": "An implementation of a Distributed Stochastic Gradient Descent for Recommender Systems based on Map-Reduce",
+      "authors": "M. Pozo and R. Chiky",
+      "venue": "2015 IWCIM | IEEE | Prague, Czech"
+    },
+    {
+      "title": "Enhancing Collaborative Filtering by using Implicit Data",
+      "authors": "M. Pozo, R. Chiky and E. Métais",
+      "venue": "2015 TCCI | Springer | Journal Paper"
+    },
+    {
+      "title": "Extraction de l'intérêt implicite des utilisateurs dans les attributs des items pour améliorer les systèmes de recommandations",
+      "authors": "M. Pozo, R. Chiky and E. Métais",
+      "venue": "2015 EGC | RNTI | Luxembourg, Luxembourg"
+    },
+    {
+      "title": "Enhancing Collaborative Filtering using Semantic Relations in Data",
+      "authors": "M. Pozo, R. Chiky and Z. Kazi",
+      "venue": "2014 ICCCI | Springer | Seoul, Korea"
+    },
+    {
+      "title": "Sampling Semantic Data Stream - Resolving Overload and Limited Storage Issues",
+      "authors": "N. Jain, M. Pozo, R. Chiky and Z. Kazi",
+      "venue": "2013 DaEng | Springer | Kuala Lampur, Malaysia"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Snowflake",
+      "level": "80%",
+      "group": "Data Platform"
+    },
+    {
+      "name": "Redshift",
+      "level": "80%",
+      "group": "Data Platform"
+    }, 
+    {
+      "name": "Datadog",
+      "level": "80%",
+      "group": "Monitoring"
+    },       
+    {
+      "name": "Grafana & Prometheus",
+      "level": "80%",
+      "group": "Monitoring"
+    },            
+    {
+      "name": "Docker",
+      "level": "80%",
+      "group": "Operations"
+    },
+    {
+      "name": "Cassandra",
+      "level": "80%",
+      "group": "NoSQL"
+    },
+    {
+      "name": "Elastic Logstash Kibana",
+      "level": "80%",
+      "group": "Monitoring"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "80%",
+      "group": "Operations"
+    },
+    {
+      "name": "Scala",
+      "level": "70%",
+      "group": "Programming"
+    },
+    {
+      "name": "LaTeX",
+      "level": "70%",
+      "group": "Programming"
+    },
+    {
+      "name": "SQL",
+      "level": "70%",
+      "group": "Programming"
+    },
+    {
+      "name": "Apache Spark",
+      "level": "70%",
+      "group": "Programming"
+    },
+    {
+      "name": "Akka Concurrent",
+      "level": "70%",
+      "group": "Programming"
+    },
+    {
+      "name": "Java",
+      "level": "65%",
+      "group": "Programming"
+    },
+    {
+      "name": "Couchbase",
+      "level": "60%",
+      "group": "NoSQL"
+    },
+    {
+      "name": "C",
+      "level": "60%",
+      "group": "Programming"
+    },
+    {
+      "name": "Python",
+      "level": "80%",
+      "group": "Programming"
+    },
+    {
+      "name": "AWS - Amazon Web Services",
+      "level": "60%",
+      "group": "Cloud"
+    },
+    {
+      "name": "SPARQL",
+      "level": "50%",
+      "group": "Programming"
+    },
+    {
+      "name": "C-SPARQL",
+      "level": "50%",
+      "group": "Programming"
+    },
+    {
+      "name": "Google Cloud",
+      "level": "50%",
+      "group": "Cloud"
+    },
+    {
+      "name": "OWL-RDF",
+      "level": "50%",
+      "group": "Programming"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "70%",
+      "group": "Data Platform"
+    },
+    {
+      "name": "Apache Iceberg",
+      "level": "70%",
+      "group": "Data Platform"
+    },
+    {
+      "name": "Microsoft Azure",
+      "level": "50%",
+      "group": "Cloud"
+    }
+  ]
+}

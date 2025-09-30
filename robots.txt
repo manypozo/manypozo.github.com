@@ -1,1 +1,14 @@
-Sitemap: /sitemap.xml
+User-agent: *
+Allow: /
+
+# Disallow access to scripts and development files
+Disallow: /scripts/
+Disallow: /*.py
+Disallow: /pyproject.toml
+Disallow: /Makefile
+Disallow: /.gitignore
+Disallow: /.cursor/
+Disallow: /.htaccess
+
+# Sitemap location
+Sitemap: https://manypozo.github.io/sitemap.xml
