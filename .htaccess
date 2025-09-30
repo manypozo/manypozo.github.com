@@ -1,0 +1,35 @@
+# Deny access to scripts folder
+<Directory "scripts">
+    Order Deny,Allow
+    Deny from all
+</Directory>
+
+# Deny access to Python files
+<Files "*.py">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Deny access to pyproject.toml
+<Files "pyproject.toml">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Deny access to Makefile
+<Files "Makefile">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Deny access to .gitignore
+<Files ".gitignore">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Deny access to .cursor folder
+<Directory ".cursor">
+    Order Deny,Allow
+    Deny from all
+</Directory>

@@ -5,9 +5,11 @@
     "email": "many.pozo@outlook.com",
     "profileImage": "assets/images/many.jpg",
     "summary": [
-      "DataOps profile with Ph.D in Recommender Systems and skills in Infrastructure and Architecture.",
-      "I like the Blockchain concept and the role of technology in entertainment and health. I love sports, photography and contemporary poetry.",
-      "Imaginative. Fast-understanding. Polyvalent. Hungry of Knowledge. Open-minded Spanish. French living and English lover. I love to apply what I learnt in the every-day-life."
+      "🔍 Full-Stack Data Specialist with a Ph.D. in Recommender Systems.",
+      "🚀 Passionate about emerging tech in entertainment, health, sports, and blockchain.",
+      "🏆 Sports fan, photographer, chess player, and poetry lover.",
+      "🧠 Lifelong learner with international experience and cultural fluency.",
+      "📚 Hands-on and impact-driven, applying knowledge to real-world challenges."
     ]
   },
   "contact": [
@@ -54,38 +56,89 @@
     },
     {
       "name": "French",
-      "level": "Professional"
+      "level": "Native"
     },
     {
       "name": "Spanish",
       "level": "Native"
+    },
+    {
+      "name": "Portuguese",
+      "level": "Intermediate"
     }
   ],
   "interests": [
+    "Health & Wellness",
     "Sports",
     "Photography",
     "Contemporary Poetry",
-    "IoT",
-    "Blockchain",
-    "Psychology"
+    "Technology"
   ],
   "experience": [
+    {
+      "title": "Principal Data",
+      "company": "Everyday",
+      "companyUrl": "",
+      "period": "11/2025 - Today",
+      "description": [
+        ""
+      ]
+    },
+    {
+      "title": "Staff Data Engineer",
+      "company": "Sorare",
+      "companyUrl": "https://sorare.com/",
+      "period": "09/2022 - 11/2025 (3 years 2 months)",
+      "description": [
+        "Sorare is a sports fantasy card game using NFT technology, enabling players to own and compete with digital cards.",
+        "On the platform team, I designed and built data infrastructure for analytics and machine learning. I bridged engineering and analytics to design, develop, maintain, and support the data platform for business and product teams.",
+        "Key tasks included data ingestion, transformation, architecture, governance, documentation, observability, visualization, activation, and automation.",
+        "Focused on modeling, scalability, reliability, and efficiency.",
+        "Technologies: Airflow, DBT, Snowflake, AWS, Kubernetes, Datadog, Terraform, Gitlab, Terraform.",
+        "Programming: Proficient in Python, SQL, and Ruby."
+      ]
+    },
+    {
+      "title": "Lead Data Engineer / DataOps",
+      "company": "Voodoo",
+      "companyUrl": "https://voodoo.io/",
+      "period": "03/2019 - 09/2022 (~3 years 6 months)",
+      "description": [
+        "Voodoo is a global mobile gaming company leveraging large-scale data to drive decisions and improve processes.",
+        "I designed, developed, and maintained the data platform supporting analytics and machine learning teams.",
+        "Focused on large-scale data ingestion, transformation, architecture, and automation.",
+        "Technologies: Spark, Airflow, DBT, Hadoop, AWS (EMR, Redshift, Athena, Glue, ECS, Kinesis), Kubernetes, Prometheus, Grafana, ElasticSearch, Terraform, CloudFormation, Jenkins, CircleCI.",
+        "Programming: Scala, Python, NodeJS, SQL"
+      ]
+    },
+    {
+      "title": "Co-Founder & CTO",
+      "company": "Gravity Law",
+      "companyUrl": "https://www.gravitylaw.com/",
+      "period": "05/2018 - 05/2020 (~2 years)",
+      "description": [
+        "Create an intelligent and adaptative platform to support lawyers in their daily work.",
+        "Technologies: Python, AWS, Terraform, ReactJS",
+        "Programming: Python, SQL"
+      ]
+    },
     {
       "title": "Data Consultant (Xebia) - DataOps / Data Engineer",
       "company": "Engie Digital - eCare Project",
       "companyUrl": "https://www.ecare-engie.com/index",
-      "period": "10/2018 - Today",
+      "period": "10/2018 - 03/2019 (~6 months)",
       "description": [
         "eCare targets Smart Homes and collects energy consumption data from smart devices.",
         "Using data, eCare helps Engie Business Units and final users to better understand and control energy consumption making it possible to reduce energy bills.",
-        "Skills: AWS, Terraform, Docker, Python, GitHub, Jenkins"
+        "Technologies: AWS, Terraform, Docker, Python, GitHub, Jenkins",
+        "Programming: Python, SQL"
       ]
     },
     {
       "title": "Data Consultant (Xebia) - DataOps",
       "company": "La Française de Jeux (FDJ)",
       "companyUrl": "https://www.fdj.fr",
-      "period": "09/2018 - 10/2018",
+      "period": "09/2018 - 10/2018 (~2 months)",
       "description": [
         "The goal is to build a datalake where data integration and transformation is easy and where Data Scientist can easily access data to create models.",
         "Skills: SaltStack, OpenStack, Hortonworks, Kerberos, JupyterHub, Python"
@@ -95,7 +148,7 @@
       "title": "Data Consultant",
       "company": "Xebia France",
       "companyUrl": "https://xebia.fr/",
-      "period": "09/2018 - Today",
+      "period": "09/2018 - 03/2019 (~6 months)",
       "description": [
         "Xebia is a consulting firm specialized in IT which advocates for knowledge sharing and quality solutions.",
         "My missions are data-centric but always using a 'dev-ops' approach."
@@ -108,11 +161,9 @@
       "period": "09/2016 - 08/2018",
       "description": [
         "Blackpills is a digital-media startup that produces original short-video content and streams them through their own services (mobile apps)",
-        "Data, infrastructure and backend architecture team:",
-        "1) Defining BigData pipelines",
-        "2) Developing services based on collected data to customise user's experience",
-        "3) Deployment and maintenance of data and backend services",
-        "Skills: ELK, Kafka, Hadoop HDFS, Apache Spark, Cassandra, Couchbase, Docker, Kubernetes, Scala, Bash"
+        "My role was to design, develop, maintain and support the data platform to support the business and the product team.",
+        "Technologies: ELK, Kafka, Hadoop HDFS, Apache Spark, Cassandra, Couchbase, Docker, Kubernetes, Scala, Bash",
+        "Programming: Scala, Python, SQL"
       ]
     },
     {
@@ -225,6 +276,10 @@
   ],
   "skills": [
     {
+      "name": "Snowflake",
+      "level": "80%"
+    },
+    {
       "name": "Docker",
       "level": "80%"
     },
@@ -261,10 +316,6 @@
       "level": "70%"
     },
     {
-      "name": "Bash",
-      "level": "70%"
-    },
-    {
       "name": "Akka Concurrent",
       "level": "70%"
     },
@@ -286,22 +337,14 @@
     },
     {
       "name": "Python",
-      "level": "60%"
+      "level": "80%"
     },
     {
       "name": "AWS - Amazon Web Services",
       "level": "60%"
     },
     {
-      "name": "DCOS",
-      "level": "60%"
-    },
-    {
       "name": "SPARQL",
-      "level": "50%"
-    },
-    {
-      "name": "R-Cran",
       "level": "50%"
     },
     {
@@ -315,6 +358,14 @@
     {
       "name": "OWL-RDF",
       "level": "50%"
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "70%"
+    },
+    {
+      "name": "Apache Iceberg",
+      "level": "70%"
     },
     {
       "name": "Microsoft Azure",

@@ -147,6 +147,7 @@ status: ## Show project status
 	@echo "$(BLUE)Recent Commits:$(RESET)"
 	@git log --oneline -5 2>/dev/null || echo "No git history"
 
+
 ##@ Quick Actions
 quick-test: ## Quick test without full validation
 	@echo "$(GREEN)Quick test...$(RESET)"
@@ -162,7 +163,7 @@ quick-serve: ## Quick serve without validation
 backup: ## Create a backup of the project
 	@echo "$(GREEN)Creating backup...$(RESET)"
 	@BACKUP_NAME="resume-backup-$(shell date +%Y%m%d-%H%M%S)"; \
-	tar -czf "$$BACKUP_NAME.tar.gz" index.html styles.css script.js data/ assets/ README.md Makefile .gitignore 2>/dev/null; \
+	tar -czf "$$BACKUP_NAME.tar.gz" index.html styles.css script.js data/ assets/ README.md Makefile .gitignore scripts/ 2>/dev/null; \
 	echo "$(GREEN)Backup created: $$BACKUP_NAME.tar.gz$(RESET)"
 
 

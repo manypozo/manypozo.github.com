@@ -110,6 +110,11 @@ function renderContact() {
             </a>
         </li>
     `).join('');
+    
+    // Initialize Lucide icons after rendering
+    if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+    }
 }
 
 // Render languages section
@@ -236,13 +241,13 @@ function renderSkills() {
 // Get icon for contact items
 function getIcon(iconName) {
     const icons = {
-        'mail': '✉️',
-        'linkedin': '💼',
-        'github': '🐙',
-        'twitter': '🐦',
-        'instagram': '📷'
+        'mail': '<i data-lucide="mail"></i>',
+        'linkedin': '<i data-lucide="linkedin"></i>',
+        'github': '<i data-lucide="github"></i>',
+        'twitter': '<i data-lucide="twitter"></i>',
+        'instagram': '<i data-lucide="instagram"></i>'
     };
-    return icons[iconName] || '📧';
+    return icons[iconName] || '<i data-lucide="mail"></i>';
 }
 
 // Initialize event listeners

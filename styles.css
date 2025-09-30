@@ -315,7 +315,23 @@ body {
 .contact-list .icon {
   font-size: var(--font-size-lg);
   width: 20px;
+  height: 20px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+
+.contact-list .icon i {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-list li:hover .icon {
+  color: var(--primary-dark);
+  transform: scale(1.1);
 }
 
 .contact-list a {
@@ -327,6 +343,15 @@ body {
 
 .contact-list a:hover {
   color: var(--primary-color);
+}
+
+/* Dark mode adjustments for contact icons */
+[data-theme="dark"] .contact-list .icon {
+  color: var(--primary-color);
+}
+
+[data-theme="dark"] .contact-list li:hover .icon {
+  color: var(--primary-dark);
 }
 
 /* Languages and interests */
