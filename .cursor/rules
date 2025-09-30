@@ -1,0 +1,11 @@
+# Cursor Rules for Manuel Pozo's Resume Website
+
+## Project Overview
+This is a modern, responsive resume website built with vanilla JavaScript, CSS Grid, and modern web standards. It features PWA capabilities, dark mode, and is fully data-driven from JSON.
+
+## Tech Stack
+- **Frontend**: HTML5, CSS3 (Grid/Flexbox), Vanilla JavaScript (ES6+)
+- **Build Tool**: Vite
+- **Data**: JSON (resume.json)
+- **Features**: PWA, Dark Mode, Responsive Design, Accessibility
+- **Deployment**: GitHub Pages

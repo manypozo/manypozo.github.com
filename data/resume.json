@@ -1,0 +1,324 @@
+{
+  "personal": {
+    "name": "Manuel Pozo",
+    "title": "DataOps Engineer",
+    "email": "many.pozo@outlook.com",
+    "profileImage": "assets/images/many.jpg",
+    "summary": [
+      "DataOps profile with Ph.D in Recommender Systems and skills in Infrastructure and Architecture.",
+      "I like the Blockchain concept and the role of technology in entertainment and health. I love sports, photography and contemporary poetry.",
+      "Imaginative. Fast-understanding. Polyvalent. Hungry of Knowledge. Open-minded Spanish. French living and English lover. I love to apply what I learnt in the every-day-life."
+    ]
+  },
+  "contact": [
+    {
+      "type": "email",
+      "icon": "mail",
+      "label": "Email",
+      "value": "many.pozo@outlook.com",
+      "url": "mailto:many.pozo@outlook.com"
+    },
+    {
+      "type": "linkedin",
+      "icon": "linkedin",
+      "label": "LinkedIn",
+      "value": "mpozo",
+      "url": "https://linkedin.com/in/mpozo"
+    },
+    {
+      "type": "github",
+      "icon": "github",
+      "label": "GitHub",
+      "value": "manypozo",
+      "url": "https://github.com/manypozo"
+    },
+    {
+      "type": "twitter",
+      "icon": "twitter",
+      "label": "Twitter",
+      "value": "@manypozo",
+      "url": "https://twitter.com/manypozo"
+    },
+    {
+      "type": "instagram",
+      "icon": "instagram",
+      "label": "Instagram",
+      "value": "manypozo",
+      "url": "https://instagram.com/manypozo"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Professional"
+    },
+    {
+      "name": "French",
+      "level": "Professional"
+    },
+    {
+      "name": "Spanish",
+      "level": "Native"
+    }
+  ],
+  "interests": [
+    "Sports",
+    "Photography",
+    "Contemporary Poetry",
+    "IoT",
+    "Blockchain",
+    "Psychology"
+  ],
+  "experience": [
+    {
+      "title": "Data Consultant (Xebia) - DataOps / Data Engineer",
+      "company": "Engie Digital - eCare Project",
+      "companyUrl": "https://www.ecare-engie.com/index",
+      "period": "10/2018 - Today",
+      "description": [
+        "eCare targets Smart Homes and collects energy consumption data from smart devices.",
+        "Using data, eCare helps Engie Business Units and final users to better understand and control energy consumption making it possible to reduce energy bills.",
+        "Skills: AWS, Terraform, Docker, Python, GitHub, Jenkins"
+      ]
+    },
+    {
+      "title": "Data Consultant (Xebia) - DataOps",
+      "company": "La Française de Jeux (FDJ)",
+      "companyUrl": "https://www.fdj.fr",
+      "period": "09/2018 - 10/2018",
+      "description": [
+        "The goal is to build a datalake where data integration and transformation is easy and where Data Scientist can easily access data to create models.",
+        "Skills: SaltStack, OpenStack, Hortonworks, Kerberos, JupyterHub, Python"
+      ]
+    },
+    {
+      "title": "Data Consultant",
+      "company": "Xebia France",
+      "companyUrl": "https://xebia.fr/",
+      "period": "09/2018 - Today",
+      "description": [
+        "Xebia is a consulting firm specialized in IT which advocates for knowledge sharing and quality solutions.",
+        "My missions are data-centric but always using a 'dev-ops' approach."
+      ]
+    },
+    {
+      "title": "Data Engineer and Data Scientist",
+      "company": "Blackpills",
+      "companyUrl": "https://www.blackpills.com",
+      "period": "09/2016 - 08/2018",
+      "description": [
+        "Blackpills is a digital-media startup that produces original short-video content and streams them through their own services (mobile apps)",
+        "Data, infrastructure and backend architecture team:",
+        "1) Defining BigData pipelines",
+        "2) Developing services based on collected data to customise user's experience",
+        "3) Deployment and maintenance of data and backend services",
+        "Skills: ELK, Kafka, Hadoop HDFS, Apache Spark, Cassandra, Couchbase, Docker, Kubernetes, Scala, Bash"
+      ]
+    },
+    {
+      "title": "PhD Research & Development Internship",
+      "company": "University of Salford, Manchester",
+      "companyUrl": "https://www.salford.ac.uk/",
+      "period": "05/2015 - 08/2015",
+      "description": [
+        "Internship in Machine Learning focusing on a very particular issue called 'cold-start': situation in which new users (or items) are new in the system; therefore there is no information about them leading in a miss classification.",
+        "Active Learning has been proposed to face cold start by intelligently acquire the needed essential data from very first users.",
+        "Skills: Hadoop MapReduce, Java, Machine Learning"
+      ]
+    },
+    {
+      "title": "Ph.D Research & Development / Project Manager",
+      "company": "ISEP - Institut Supérieur d'Electronique de Paris",
+      "companyUrl": "https://www.isep.fr",
+      "period": "10/2013 - 09/2016",
+      "description": [
+        "Thesis oriented to industry: Thesis dubbed Towards Accurate and Scalable Recommender Systems",
+        "The enormous quantity of information in Webs may overwhelm users. Recommender Systems study the interest of users in order to pre-select information in which he/she might be more interested. My goal in this subject is to create a recommender system that relies on two concepts: generic implicit relations in data and distributed collaborative filtering techniques.",
+        "Skills: Hadoop MapReduce, Apache Mahout, Java, R-Cran, SQL, Bloom Filters, Weka, Protegee, Jena, SPARQL",
+        "Extra: Project Manager for final master projects focused on recommender systems"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D / Doctorate in Computer Science - Recommender Systems",
+      "institution": "CNAM - Conservatoire National des Arts et Métiers",
+      "institutionUrl": "http://www.cnam.fr",
+      "period": "2013 - 2016"
+    },
+    {
+      "degree": "Master in Network and Service Architect",
+      "institution": "ISEP - Institut supérieur d'Electronique de Paris",
+      "institutionUrl": "https://www.isep.fr",
+      "period": "2012 - 2013"
+    },
+    {
+      "degree": "Licentiature - Telecommunications Engineer",
+      "institution": "US - University of Sevilla",
+      "institutionUrl": "https://www.etsi.us.es",
+      "period": "2008 - 2013"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Briefeed",
+      "url": "https://www.briefeed.co",
+      "description": "The essential news reader app. Handy, minimal, fast: the sleekest way to read the news on the go, finding in one place all the updates you need."
+    },
+    {
+      "name": "Dendelion",
+      "url": "#",
+      "description": "Personal assistant for presents."
+    },
+    {
+      "name": "Smart Building - Fire Alarm Use Case",
+      "url": "https://www.linkedin.com/pulse/cisco-hackathon-smart-cities-spinalcom-fight-against-fire-manuel-pozo/",
+      "description": "Cisco Hackathon, Smart Cities and SpinalCom to fight against Fire Issues"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Exploiting Past Users' Interests and Predictions in an Active Learning Method for Dealing with Cold Start in Recommender Systems",
+      "authors": "M. Pozo, R. Chiky, F. Meziane and E. Métais",
+      "venue": "2018 MDPI Informatics"
+    },
+    {
+      "title": "Enhancing New User Cold-Start based on Decision Trees Active Learning by Using Past Warm-Users Predictions",
+      "authors": "M. Pozo, R. Chiky, F. Meziane and E. Métais",
+      "venue": "2017 ICCCI | Springer | Nicosia, Cyprus"
+    },
+    {
+      "title": "Enhanced User-User Collaborative Filtering Recommendation Algorithm using Amendments",
+      "authors": "W. Zhang, R. Chiky and M. Pozo",
+      "venue": "2017 EGC | RNTI Poster | Grenoble, France"
+    },
+    {
+      "title": "An Item/User Representation for Recommender Systems based on Bloom Filters",
+      "authors": "M. Pozo, R. Chiky, F. Meziane and E. Métais",
+      "venue": "2016 RCIS | IEEE | Grenoble, France"
+    },
+    {
+      "title": "An implementation of a Distributed Stochastic Gradient Descent for Recommender Systems based on Map-Reduce",
+      "authors": "M. Pozo and R. Chiky",
+      "venue": "2015 IWCIM | IEEE | Prague, Czech"
+    },
+    {
+      "title": "Enhancing Collaborative Filtering by using Implicit Data",
+      "authors": "M. Pozo, R. Chiky and E. Métais",
+      "venue": "2015 TCCI | Springer | Journal Paper"
+    },
+    {
+      "title": "Extraction de l'intérêt implicite des utilisateurs dans les attributs des items pour améliorer les systèmes de recommandations",
+      "authors": "M. Pozo, R. Chiky and E. Métais",
+      "venue": "2015 EGC | RNTI | Luxembourg, Luxembourg"
+    },
+    {
+      "title": "Enhancing Collaborative Filtering using Semantic Relations in Data",
+      "authors": "M. Pozo, R. Chiky and Z. Kazi",
+      "venue": "2014 ICCCI | Springer | Seoul, Korea"
+    },
+    {
+      "title": "Sampling Semantic Data Stream - Resolving Overload and Limited Storage Issues",
+      "authors": "N. Jain, M. Pozo, R. Chiky and Z. Kazi",
+      "venue": "2013 DaEng | Springer | Kuala Lampur, Malaysia"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Cassandra",
+      "level": "80%"
+    },
+    {
+      "name": "Elastic Logstash Kibana",
+      "level": "80%"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "80%"
+    },
+    {
+      "name": "Scala",
+      "level": "70%"
+    },
+    {
+      "name": "LaTeX",
+      "level": "70%"
+    },
+    {
+      "name": "Hadoop HDFS",
+      "level": "70%"
+    },
+    {
+      "name": "SQL",
+      "level": "70%"
+    },
+    {
+      "name": "Apache Spark",
+      "level": "70%"
+    },
+    {
+      "name": "Bash",
+      "level": "70%"
+    },
+    {
+      "name": "Akka Concurrent",
+      "level": "70%"
+    },
+    {
+      "name": "Confluent Kafka",
+      "level": "70%"
+    },
+    {
+      "name": "Java",
+      "level": "65%"
+    },
+    {
+      "name": "Couchbase",
+      "level": "60%"
+    },
+    {
+      "name": "C",
+      "level": "60%"
+    },
+    {
+      "name": "Python",
+      "level": "60%"
+    },
+    {
+      "name": "AWS - Amazon Web Services",
+      "level": "60%"
+    },
+    {
+      "name": "DCOS",
+      "level": "60%"
+    },
+    {
+      "name": "SPARQL",
+      "level": "50%"
+    },
+    {
+      "name": "R-Cran",
+      "level": "50%"
+    },
+    {
+      "name": "C-SPARQL",
+      "level": "50%"
+    },
+    {
+      "name": "Google Cloud",
+      "level": "50%"
+    },
+    {
+      "name": "OWL-RDF",
+      "level": "50%"
+    },
+    {
+      "name": "Microsoft Azure",
+      "level": "50%"
+    }
+  ]
+}
